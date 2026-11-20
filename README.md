@@ -88,3 +88,9 @@ The long-term objective is to maintain a professional digital presence that refl
 
 **Telzee Technologies**  
 *Engineering Digital Solutions for a Connected World.*
+
+## Website Screenshots
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
