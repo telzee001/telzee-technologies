@@ -7,6 +7,9 @@
     <title>Telzee Technologies</title>
     <link rel="stylesheet" href="css/index-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <script src="js/index-script.js" defer></script>
 </head>
 
@@ -19,7 +22,7 @@
             </a>
             <nav class="site-navigation" id="site-navigation" aria-label="main-navigation">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -32,122 +35,152 @@
 
     <main>
         <section class="hero-section" id="hero-section">
-            <p>DIGITAL EXPERIENCES • CUSTOM SOFTWARE • BLOCKCHAIN & WEB3</p>
+            <p class="hero-p1">DIGITAL EXPERIENCES • CUSTOM SOFTWARE • BLOCKCHAIN & WEB3</p>
             <h1>Engineering Digital Solutions for a Connected World.</h1>
-            <p>We design and develop digital experiences, software solutions, and blockchain-powered products that help
+            <p class="hero-p2">We design and develop digital experiences, software solutions, and blockchain-powered
+                products that help
                 businesses turn ideas into practical technology.</p>
-            <a href="contact.html" class="project-discussion" id="project-discussion">Discuss Your Project <i
-                    class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-            <a href="services.html" class="services-exploration" id="services-exploration">Explore Our Services</a>
+            <div class="hero-cta" id="hero-cta">
+                <a href="contact.html" class="project-discussion" id="project-discussion">Discuss Your Project <i
+                        class="fa-solid fa-circle-arrow-right" aria-hidden="true"></i></a>
+                <a href="services.html" class="services-exploration" id="services-exploration">Explore Our Services
+                    <i class="fa-solid fa-circle-arrow-down" aria-hidden="true"></i></a>
+            </div>
         </section>
 
         <section class="services-preview" id="services-preview">
-            <p>CAPABILITIES & SPECIALIZATION</p>
-            <h2>Technology Solutions Built Around Your Needs</h2>
-            <p>From establishing your digital presence to developing custom software and exploring blockchain
-                technology, we
-                help turn technical requirements into practical solutions.</p>
+            <div class="services-preview-intro">
+                <p class="services-previewp1">CAPABILITIES & SPECIALIZATION</p>
+                <h2 class="services-previewh2">Technology Solutions Built Around Your Needs.</h2>
+                <p class="services-previewp2">From establishing your digital presence to developing custom software and
+                    exploring blockchain
+                    technology, we
+                    help turn technical requirements into practical solutions.</p>
+            </div>
             <div class="services-preview-cards" id="services-preview-cards">
                 <div class="website-dev-preview-card" id="website-dev-preview-card">
                     <i class="fa-solid fa-display" aria-hidden="true"></i>
-                    <p>FRONTEND ENGINEERING</p>
-                    <h3>Website Development</h3>
-                    <p>Professional websites and responsive digital experiences for businesses and organizations,
-                        engineered for lightning performance and intuitive engagement</p>
-                    <h4>Our Key Capabilities</h4>
+                    <p class="web-devp1">FRONTEND ENGINEERING</p>
+                    <h3 class="web-devh3">Website Development</h3>
+                    <p class="web-devp2">Professional websites and responsive digital experiences for businesses and
+                        organizations,
+                        engineered for lightning performance and intuitive engagement.</p>
+                    <h4 class="web-devh4">KEY CAPABILITIES</h4>
                     <ul>
-                        <li>Website Strategy and Planning</li>
-                        <li>Corporate and Business websites</li>
-                        <li>Custom Website Design and Development</li>
-                        <li>Responsive Frontend Experiences</li>
-                        <li>Content Management Systems (CMS)</li>
-                        <li>E-commerce Platform Solutions</li>
-                        <li>Website Maintenance, Optimization & Support</li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Website Design, Planning and
+                            Development
+                        </li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Content Management Systems,
+                            Corporate and Business Websites</li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Responsive Frontend
+                            Experiences</li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> E-commerce Platform Solutions
+                        </li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Website Maintenance,
+                            Optimization & Support</li>
                     </ul>
-                    <a href="services.html">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="services.html" class="website-dev-learn-more">Learn More <i
+                            class="fa-solid fa-circle-arrow-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="custom-software-dev-preview-card" id="custom-software-dev-preview-card">
                     <i class="fa-solid fa-layer-group" aria-hidden="true"></i>
-                    <p>CORE SYSTEMS</p>
-                    <h3>Custom Software Development</h3>
-                    <p>Purpose-built software applications designed around specific business requirements and workflows,
+                    <p class="custom-softwarep1">CORE SYSTEMS</p>
+                    <h3 class="custom-softwareh3">Custom Software Development</h3>
+                    <p class="custom-softwarep2">Purpose-built software applications designed around specific business
+                        requirements and workflows,
                         helping organizations streamline operations and manage complex processes.</p>
-                    <h4>Our Key Capabilities</h4>
+                    <h4 class="custom-softwareh4">KEY CAPABILITIES</h4>
                     <ul>
-                        <li>Business Management Systems</li>
-                        <li>CRM and Customer Management Platforms</li>
-                        <li>Inventory and Resource Management</li>
-                        <li>Workflow Automation Systems</li>
-                        <li>SaaS Application Development</li>
-                        <li>API Development and Integration</li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Business Management Systems
+                        </li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> CRM and Customer Management
+                            Platforms</li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Inventory and Resource
+                            Management</li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> API Development and
+                            Integration</li>
                     </ul>
-                    <a href="services.html">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="services.html" class="custom-software-learn-more">Learn More <i
+                            class="fa-solid fa-circle-arrow-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="blockchain-dev-preview-card" id="blockchain-dev-preview-card">
                     <i class="fa-solid fa-cubes" aria-hidden="true"></i>
-                    <p>DECENTRALIZED SOLUTIONS</p>
-                    <h3>Blockchain & Web3 Development</h3>
-                    <p>Blockchain-powered applications and decentralized technology solutions designed to support
+                    <p class="blockchain-devp1">DECENTRALIZED SOLUTIONS</p>
+                    <h3 class="blockchain-devh3">Blockchain & Web3 Development</h3>
+                    <p class="blockchain-devp2">Blockchain-powered applications and decentralized technology solutions
+                        designed to support
                         transparent interactions, digital ownership and emerging Web3 ecosystems.</p>
-                    <h4>Our Key Capabilities</h4>
+                    <h4 class="blockchain-devh4">KEY CAPABILITIES</h4>
                     <ul>
-                        <li>Smart Contract Development</li>
-                        <li>Decentralized Application (DApp) Development</li>
-                        <li>Tokenization and Cryptocurrency Solutions</li>
-                        <li>Blockchain Consulting and Strategy</li>
-                        <li>Web3 Integration and Development</li>
+                        </li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Decentralized Application
+                            (DApp) Development</li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Tokenization and
+                            Cryptocurrency Solutions</li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Blockchain Consulting and
+                            Strategy</li>
+                        <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Web3 Integration and
+                            Development</li>
                     </ul>
-                    <a href="services.html">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="services.html" class="blockchain-dev-learn-more">Learn More <i
+                            class="fa-solid fa-circle-arrow-right" aria-hidden="true"></i></a>
                 </div>
             </div>
 
         </section>
 
         <section class="about-preview" id="about-preview">
-            <p>ABOUT TELZEE TECHNOLOGIES</p>
-            <h2>Technology With Purpose. Solutions With Direction.</h2>
-            <p>Telzee Technologies is a technology company focused on building digital experiences, custom software, and
+            <p class="about-previewp1">ABOUT TELZEE TECHNOLOGIES</p>
+            <h2 class="about-previewh2">Technology With Purpose. Solutions With Direction.</h2>
+            <p class="about-previewp2">Telzee Technologies is a technology company focused on building digital
+                experiences,
+                custom software, and
                 blockchain-powered solutions. We combine technical thinking with purposeful engineering to transform
                 ideas and complex requirements into practical digital products.</p>
-            <p>We believe meaningful technology starts with understanding the problem. Every solution deserves
+            <p class="about-previewp3">We believe meaningful technology starts with understanding the problem. Every
+                solution deserves
                 thoughtful planning, sound architecture, and a development approach that considers usability,
                 reliability, and the potential to evolve.</p>
             <div class="about-preview-cards" id="about-preview-cards">
                 <div class="preview-card1" id="preview-card1">
-                    <p>01</p>
-                    <h3>Purposeful Innovation</h3>
-                    <p>Building technology around real needs and meaningful outcomes.</p>
+                    <p class="about-preview-card1-p1">01</p>
+                    <h3 class="about-preview-card1-h3">Purposeful Innovation</h3>
+                    <p class="about-preview-card1-p2">Building technology around real needs and meaningful outcomes.</p>
                 </div>
                 <div class="preview-card2" id="preview-card2">
-                    <p>02</p>
-                    <h3>Engineering Discipline</h3>
-                    <p>Applying structured thinking and sound technical foundations.</p>
+                    <p class="about-preview-card2-p1">02</p>
+                    <h3 class="about-preview-card2-h3">Engineering Discipline</h3>
+                    <p class="about-preview-card2-p2">Applying structured thinking and sound technical foundations.</p>
                 </div>
                 <div class="preview-card3" id="preview-card3">
-                    <p>03</p>
-                    <h3>Built for Evolution</h3>
+                    <p class="about-preview-card3-p1">03</p>
+                    <h3 class="about-preview-card3-h3">Built for Evolution</h3>
                     <p>Creating solutions with adaptability and long-term development in mind.</p>
                 </div>
             </div>
-            <p>Discover the thinking, vision, and principles behind our work.</p>
+            <p class="about-previewp4">Discover the thinking, vision, and principles behind our work.</p>
             <a href="about.html" class="about-learn-more" id="about-learn-more">Learn More <i
                     class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
         </section>
         <section class="methodology" id="methodology">
-            <p>METHODOLOGY</p>
-            <h2>A Clear Process From Idea to Delivery</h2>
-            <p>We maintain structured execution, transparent communication, and engineering discipline throughout every
+            <p class="methodologyp1">METHODOLOGY</p>
+            <h2 class="methodologyh2">A Clear Process From Idea to Delivery</h2>
+            <p class="methodologyp2">We maintain structured execution, transparent communication, and engineering
+                discipline
+                throughout every
                 stage of development.</p>
             <div class="methodology-phases" id="methodology-phases">
                 <div class="methodology-phase1" id="methodology-phase1">
                     <div class="phase-header" id="phase1-header">
-                        <p>01</p>
-                        <p>PHASE 01</p>
+                        <p class="methodology-phase1-p1">01</p>
+                        <p class="methodology-phase1-p2">PHASE 01</p>
                     </div>
-                    <h3>Discovery</h3>
-                    <p>Understand the project's purpose, business requirements, target users, and technical challenges
+                    <h3 class="methodology-phase1-h3">Discovery</h3>
+                    <p class="methodology-phase1-p3">Understand the project's purpose, business requirements, target
+                        users,
+                        and technical challenges
                         before defining a solution.</p>
-                    <h4>Key Activities</h4>
+                    <h4 class="methodology-phase1-h4">Key Activities</h4>
                     <ul>
                         <li>Requirements Gathering</li>
                         <li>Problem Analysis</li>
@@ -157,13 +190,15 @@
                 </div>
                 <div class="methodology-phase2" id="methodology-phase2">
                     <div class="phase-header" id="phase2-header">
-                        <p>02</p>
-                        <p>PHASE 02</p>
+                        <p class="methodology-phase2-p1">02</p>
+                        <p class="methodology-phase2-p2">PHASE 02</p>
                     </div>
-                    <h3>Planning</h3>
-                    <p>Translate the requirements into a structured development plan, defining the solution
+                    <h3 class="methodology-phase2-h3">Planning</h3>
+                    <p class="methodology-phase2-p3">Translate the requirements into a structured development plan,
+                        defining
+                        the solution
                         architecture, technology choices, priorities, and implementation roadmap.</p>
-                    <h4>Key Activities</h4>
+                    <h4 class="methodology-phase2-h4">Key Activities</h4>
                     <ul>
                         <li>Technical Planning</li>
                         <li>System Architecture</li>
@@ -173,13 +208,14 @@
                 </div>
                 <div class="methodology-phase3" id="methodology-phase3">
                     <div class="phase-header" id="phase3-header">
-                        <p>03</p>
-                        <p>PHASE 03</p>
+                        <p class="methodology-phase3-p1">03</p>
+                        <p class="methodology-phase3-p2">PHASE 03</p>
                     </div>
-                    <h3>Development</h3>
-                    <p>Build the solution through structured implementation, continuous refinement, and testing to
+                    <h3 class="methodology-phase3-h3">Development</h3>
+                    <p class="methodology-phase3-p3">Build the solution through structured implementation, continuous
+                        refinement, and testing to
                         ensure that the product meets its defined requirements.</p>
-                    <h4>Key Activities</h4>
+                    <h4 class="methodology-phase3-h4">Key Activities</h4>
                     <ul>
                         <li>Feature Implementation</li>
                         <li>Frontend and Backend Development</li>
@@ -189,13 +225,15 @@
                 </div>
                 <div class="methodology-phase4" id="methodology-phase4">
                     <div class="phase-header" id="phase4-header">
-                        <p>04</p>
-                        <p>PHASE 04</p>
+                        <p class="methodology-phase4-p1">04</p>
+                        <p class="methodology-phase4-p2">PHASE 04</p>
                     </div>
-                    <h3>Delivery</h3>
-                    <p>Prepare the completed solution for release, verify its functionality, and provide the
+                    <h3 class="methodology-phase4-h3">Delivery</h3>
+                    <p class="methodology-phase4-p3">Prepare the completed solution for release, verify its
+                        functionality,
+                        and provide the
                         documentation and handover required for continued use and maintenance.</p>
-                    <h4>Key Activities</h4>
+                    <h4 class="methodology-phase4-h4">Key Activities</h4>
                     <ul>
                         <li>Quality Assurance</li>
                         <li>Deployment and Release</li>
@@ -207,11 +245,14 @@
         </section>
         <section class="project-cta" id="project-cta">
             <div class="project-cta-container" id="project-cta-container">
-                <p>LET'S WORK TOGETHER</p>
-                <h2>Have a Project in Mind? Let's Bring Your Idea to Life.</h2>
-                <p>Whether you're planning a website, exploring a custom software solution, or considering a
+                <p class="project-cta-p1">LET'S WORK TOGETHER</p>
+                <h2 class="project-cta-h3">Have a Project in Mind? Let's Bring Your Idea to Life.</h2>
+                <p class="project-cta-p2">Whether you're planning a website, exploring a custom software solution, or
+                    considering a
                     blockchain-powered product, we'd like to understand what you're trying to achieve.</p>
-                <p>Let's discuss your requirements, explore the possibilities, and identify the right next steps.</p>
+                <p class="project-cta-p3">Let's discuss your requirements, explore the possibilities, and identify the
+                    right
+                    next steps.</p>
                 <a href="contact.html" class="start-conversation" id="start-conversation">Start Conversation <i
                         class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
             </div>
@@ -221,14 +262,15 @@
     <footer>
         <div class="site-footer-container" id="site-footer-container">
             <div class="footer-container1" id="footer-container1">
-                <h2>Company</h2>
+                <h3 class="footer-container1-h3">Company</h3>
                 <img src="website-assets/images/telzee-logo-header.png" class="site-footer-logo" id="site-footer-logo"
                     alt="Telzee Technologies logo">
-                <p>Building digital experiences, software solutions, and blockchain-powered products through purposeful
+                <p class="footer-container1-p">Building digital experiences, software solutions, and blockchain-powered
+                    products through purposeful
                     engineering and thoughtful development.</p>
             </div>
             <div class="footer-container2" id="footer-container2">
-                <h2>Explore</h2>
+                <h3 class="footer-container2-h3">Explore</h3>
                 <nav class="footer-navigation" id="footer-navigation" aria-label="footer-navigation">
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -237,7 +279,7 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
-                <h3>Services</h3>
+                <h3 class="footer-container2-h3">Services</h3>
                 <ul>
                     <li>Website Development</li>
                     <li>Custom Software Development</li>
@@ -245,15 +287,16 @@
                 </ul>
             </div>
             <div class="footer-container3" id="footer-container3">
-                <h2>Get in touch</h2>
-                <p>Have a project or an idea you'd like to discuss? Start a conversation with our team through the
+                <h3 class="footer-container3-h3">Get in touch</h3>
+                <p class="footer-container3-p">Have a project or an idea you'd like to discuss? Start a conversation
+                    with our team through the
                     contact page.</p>
                 <a href="contact.html" class="footer-cta" id="footer-cta">Contact Us <i class="fa-solid fa-arrow-right"
                         aria-hidden="true"></i></a>
             </div>
             <div class="container-footer" id="container-footer">
-                <p>&copy; 2026 Telzee Technologies. All rights reserved.</p>
-                <p>Privacy Policy · Terms of Service</p>
+                <p class="container-footer-p1">&copy; 2026 Telzee Technologies. All rights reserved.</p>
+                <p class="container-footer-p2">Privacy Policy · Terms of Service</p>
             </div>
         </div>
     </footer>
